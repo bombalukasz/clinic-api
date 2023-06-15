@@ -1,10 +1,10 @@
-package pl.sda.registrationapi;
+package pl.sda.clinicapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RegistrationApiApplicationTests {
+class ClinicApiApplicationTests {
 
     @Test
     void contextLoads() {

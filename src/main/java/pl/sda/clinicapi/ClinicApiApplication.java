@@ -1,13 +1,13 @@
-package pl.sda.registrationapi;
+package pl.sda.clinicapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RegistrationApiApplication {
+public class ClinicApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RegistrationApiApplication.class, args);
+        SpringApplication.run(ClinicApiApplication.class, args);
     }
 
 }
