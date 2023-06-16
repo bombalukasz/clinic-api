@@ -1,10 +1,10 @@
-# <h1 style="text-align: center;">Registration API</h1>
+# <h1 style="text-align: center;">Clinic API</h1>
 
 <hr style="background-color: darkorange; height: 3px">
 
 ## Overview
 
-Registration API, which provides endpoints for managing doctors, patients and their appointments.
+Clinic API, which provides endpoints for managing doctors, patients and their appointments.
 
 ---
 
