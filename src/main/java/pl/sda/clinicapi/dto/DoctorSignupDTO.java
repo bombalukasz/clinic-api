@@ -1,6 +1,7 @@
 package pl.sda.clinicapi.dto;
 
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.PastOrPresent;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -39,6 +40,7 @@ public class DoctorSignupDTO {
     @Length(max = 50, message = "Name max length exceeded (max = 50)!")
     private String surname;
 
+    @NotNull(message = "Date of birth must not be blank!")
     @PastOrPresent(message = "Date of birth must not be in past or present!")
     private LocalDate dateOfBirth;
 
